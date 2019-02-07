@@ -35,10 +35,10 @@ button {
     box-shadow: 5px 2px;
     background-color: red;
     background-image: linear-gradient(to bottom right, red, rgb(190, 160, 160));
-    text-decoration: none; 
+    text-decoration: none;
+    color: white; 
 }
 
- dotąd przyciski 
 
 body {
     margin: 70px 0px 70px 0px;
@@ -49,37 +49,36 @@ body {
 .box {
     position: absolute;
     border: 1px solid;
-    margin: 50px 600px 50px 600px;
+    margin: 50px 1000px 50px 50px;
     border-radius: 10px;
     background-color: aliceblue;
     box-shadow: 5px 10px 18px rgb(180, 180, 224);
-    
-    text-align: center;
+
 }
 
-p {
+.box p {
     color: gray;
     
 }
 
 .img1 {
-    hight: 100px;
+    height: 100px;
     width: 100px;
     text-align: center;
 }
 
-.btn5 button {
+.btn5  {
     background-color: black;
     color: whitesmoke;
     border-radius: 50px;
     height: 50px;
-    position: relative; 
+    padding-right: 20px;
 }
 
-dotad zadanie 1 
 
-img.img2 {
-    max-width: 10px;
+.img2 {
+    width: 1000px;
+    height: 700px;
     float: right;
     background-repeat: no-repeat; 
     border-radius: 10px;
@@ -91,7 +90,7 @@ h3,p {
     font-family: 'Lucida Console', sans-serif;
 }
 
-p {
+form p {
     font-size: 20px;
 }
 
@@ -127,3 +126,4 @@ p {
 @keyframes mymove {
     from {left: 0px;}
     to {left: 200px;}
+
